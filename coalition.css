@@ -1,0 +1,1391 @@
+body {
+ margin: 0px;
+ padding: 0px;
+ overflow-y: scroll;
+ scroll-behavior: smooth;
+ display: flex;
+ flex-direction: column;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section {
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+
+section nav {
+ width: 100%;
+ height: 8vh;
+}
+
+.section1 {
+ background-image: url("img1.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.section1 nav {
+ background-color: transparent;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.section1 nav .details {
+ background-color: transparent;
+ height: 100%;
+ width: 800px;
+ padding-left: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.logo {
+ background-image: url("logo.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 6vh;
+ width: 6vh;
+ border-radius: 50%;
+}
+
+.section1 nav .details .links {
+ height: 100%;
+ width: 30vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.section1 nav .details .links a {
+ color: #FFFFFF;
+ text-decoration: underline;
+ font-weight: 300;
+ font-style: italic;
+}
+
+.section2 {
+ background-image: url("img2.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.section2 nav {
+ background-color: #FFFFFF;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.section2 nav .details {
+ background-color: transparent;
+ height: 100%;
+ width: 800px;
+ padding-left: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.section2 nav .details .logoCon {
+ height: 100%;
+ width: 30vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.section2 nav .details .logoCon span {
+ height: 6vh;
+ width: 23vh;
+ display: flex;
+ padding: 0;
+ flex-direction: column;
+}
+
+.section2 nav .details .logoCon span h1 {
+ font-size: 17px;
+ margin: 0;
+ height: 50%;
+ color: #2e2d2d;
+ font-weight: 200;
+ letter-spacing: 1.5px;
+ width: 100%;
+}
+
+.section2 nav .details .logoCon span h2 {
+ font-size: 17px;
+ margin: 0;
+ color: #404E6C;
+ height: 50%;
+ font-weight: 200;
+ letter-spacing: 2px;
+ width: 100%;
+}
+
+.section2 nav .details .links {
+ height: 100%;
+ width: 30vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.section2 nav .details .links a {
+ color: #404E6C;
+ font-weight: 300;
+ text-decoration: underline;
+ font-style: italic;
+}
+
+.section2 .body {
+ background-color: transparent;
+ width: 100%;
+ height: 72vh;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
+.section2 .body .details {
+ width: 850px;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.section2 .body .details span {
+ width: 850px;
+ margin-top: 60px;
+ height: 100px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.section2 .body .details span h1 {
+ font-size: 120px;
+ letter-spacing: 10px;
+ color: #657694;
+}
+
+.section2 .body .details span h2 {
+ font-size: 30px;
+ margin-left: -32px;
+ margin-top: 45px;
+ color: #404E6C;
+ font-weight: 200;
+}
+
+.section2 .body .details p {
+ width: 700px;
+ font-size: 13px;
+ height: 80px;
+ color: #4F5660;
+}
+
+.section2 footer {
+ background-color: #404e6ce1;
+ width: 100%;
+ height: 20vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.section2 footer .details {
+ margin: 0;
+ height: 100%;
+ width: 800px;
+ padding-left: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+ padding-right: 10px;
+}
+
+.section2 footer .details .images {
+ margin-top: 1vh;
+ height: 15vh;
+ width: 780px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.section2 footer .details .images img {
+ width: 190px;
+ height: 100%;
+}
+
+.section2 footer .details .loader {
+ height: 2vh;
+ width: 8vh;
+ padding-left: 10px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ padding-right: 10px;
+ margin-bottom: 1.5vh;
+}
+
+.section2 footer .details .loader button {
+ background-color: #9FA7B5;
+ height: 1vh;
+ width: 1vh;
+ border-radius: 50%;
+ border: 0;
+ outline: none;
+}
+
+.section2 footer .details .loader .active {
+ background-color: #FFFFFF;
+}
+
+.section3 {
+ background-image: url("img3.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.section3 header {
+ width: 100%;
+ height: 20vh;
+ background-color: #FFFFFF;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.section3 header .details {
+ height: 100%;
+ width: 700px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.section3 header .details span {
+ width: 220px;
+ height: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.section3 header .details span h1 {
+ font-size: 120px;
+ letter-spacing: 10px;
+ color: #9FA7B5;
+}
+
+.section3 header .details span h2 {
+ font-size: 30px;
+ color: #404E6C;
+ font-weight: 100;
+ margin-left: -32px;
+ margin-top: 45px;
+}
+
+.section3 header .details p {
+ width: 450px;
+ font-size: 13px;
+ display: flex;
+ color: #4F5660;
+ font-weight: 100;
+ align-items: center;
+ height: 80px;
+}
+
+.section3 .ndHeader {
+ width: 100%;
+ height: 7vh;
+ background-color: #404E6C;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.section3 .ndHeader .details {
+ height: 100%;
+ width: 850px;
+ padding: 0;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: left;
+}
+
+.section3 .ndHeader .details .mountHead {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ height: 100%;
+ justify-content: center;
+ width: 25vh;
+}
+
+.section3 .ndHeader .details .mountHead h1 {
+ font-size: 20px;
+ letter-spacing: 2px;
+ font-weight: 300;
+ color: #838B9D;
+}
+
+.section3 .ndHeader .details .mountHead.One {
+ background-color: #AFB3BD;
+ text-decoration: underline;
+ text-decoration-color: #404E6C;
+}
+
+.section3 .ndHeader .details .mountHead.One h1 {
+ color: #404E6C;
+}
+
+.section3 .body {
+ width: 100%;
+ height: 63vh;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ background-color: transparent;
+}
+
+.section3 .body .details {
+ width: 800px;
+ height: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: left;
+ align-items: center;
+}
+
+.section3 .body .details .schedule {
+ width: 300px;
+ height: 200px;
+ background-color: #ffffffb2;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.section3 .body .details .schedule h1 {
+ width: 250px;
+ height: 40px;
+ color: #404E6C;
+ font-size: 25px;
+ display: flex;
+ letter-spacing: 1.5px;
+ font-weight: 700;
+ flex-direction: row;
+ justify-content: left;
+ margin-bottom: 10px;
+ align-items: center;
+}
+
+.section3 .body .details .schedule span {
+ width: 250px;
+ margin-bottom: 8px;
+ height: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.section3 .body .details .schedule span h2 {
+ color: #000000;
+ font-size: 12px;
+ font-weight: 500;
+}
+
+.section3 footer {
+ width: 100%;
+ height: 10vh;
+ background-color: #404e6c;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.section3 footer .details {
+ height: 100%;
+ width: 800px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.section3 footer .details h1 {
+ font-size: 13px;
+ margin: 0;
+ letter-spacing: 1.5px;
+ color: #55688D;
+}
+
+.section3 footer .details .logoCon {
+ height: 100%;
+ width: 30vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.section3 footer .details .logoCon span {
+ height: 6vh;
+ width: 23vh;
+ display: flex;
+ padding: 0;
+ font-weight: 100px;
+ flex-direction: column;
+}
+
+.section3 footer .details .logoCon span h1 {
+ font-size: 17px;
+ margin: 0;
+ height: 50%;
+ width: 100%;
+ font-weight: 200;
+ letter-spacing: 1.5px;
+ color: #55688D;
+}
+
+.section3 footer .details .logoCon span h2 {
+ font-size: 17px;
+ margin: 0;
+ height: 50%;
+ font-weight: 200;
+ letter-spacing: 2px;
+ width: 100%;
+ color: #55688D;
+}
+
+@media (min-width:800px) and (max-width:999px) {
+ section nav {
+  width: 100%;
+  height: 8vh;
+ }
+
+ .section1 nav {
+  height: 5vh;
+ }
+
+ .section1 nav .details {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+ }
+
+ .logo {
+  height: 4vh;
+  width: 4vh;
+  border-radius: 50%;
+ }
+
+ .section1 nav .details .links {
+  height: 100%;
+  width: 15vh;
+  padding-right: 10px;
+ }
+
+ .section1 nav .details .links a {
+  font-size: 15px;
+  font-weight: 300;
+ }
+
+
+ .section2 nav {
+  height: 5vh;
+ }
+
+ .section2 nav .details {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+ }
+
+ .section2 nav .details .logoCon {
+  height: 100%;
+  width: 20vh;
+ }
+
+ .section2 nav .details .logoCon span {
+  height: 4vh;
+  width: 15vh;
+  padding: 0;
+ }
+
+ .section2 nav .details .logoCon span h1 {
+  font-size: 13px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  width: 100%;
+ }
+
+ .section2 nav .details .logoCon span h2 {
+  font-size: 13px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 2px;
+  width: 100%;
+ }
+
+ .section2 nav .details .links {
+  height: 100%;
+  width: 15vh;
+  padding-right: 3px;
+ }
+
+ .section2 nav .details .links a {
+  font-size: 15px;
+  font-weight: 300;
+ }
+
+ .section2 .body {
+  width: 100%;
+  height: 84vh;
+ }
+
+ .section2 .body .details {
+  width: 680px;
+  height: 100%;
+ }
+
+ .section2 .body .details span {
+  width: 680px;
+  margin-top: 60px;
+  height: 100px;
+ }
+
+ .section2 .body .details span h1 {
+  font-size: 100px;
+  letter-spacing: 5px;
+ }
+
+ .section2 .body .details span h2 {
+  font-size: 27px;
+  margin-left: -23px;
+  margin-top: 38px;
+  font-weight: 200;
+ }
+
+ .section2 .body .details p {
+  width: 580px;
+  font-size: 13px;
+  height: 80px;
+ }
+
+ .section2 footer {
+  width: 100%;
+  height: 11vh;
+ }
+
+ .section2 footer .details {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+ }
+
+ .section2 footer .details .images {
+  margin-top: 1vh;
+  height: 8vh;
+  width: 100%;
+ }
+
+ .section2 footer .details .images img {
+  width: 24%;
+  height: 100%;
+ }
+
+ .section2 footer .details .loader {
+  height: 2vh;
+  width: 6vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+ }
+
+ .section2 footer .details .loader button {
+  height: 2px;
+  width: 2px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+ }
+
+ .section3 header {
+  width: 100%;
+  height: 10vh;
+ }
+
+ .section3 header .details {
+  height: 100%;
+  width: 600px;
+ }
+
+ .section3 header .details span {
+  width: 200px;
+  height: 100%;
+ }
+
+ .section3 header .details span h1 {
+  font-size: 100px;
+  letter-spacing: 4px;
+ }
+
+ .section3 header .details span h2 {
+  font-size: 27px;
+  font-weight: 100;
+  margin-left: -23px;
+  margin-top: 38px;
+ }
+
+ .section3 header .details p {
+  width: 400px;
+  font-size: 13px;
+  font-weight: 100;
+  height: 80px;
+ }
+
+ .section3 .ndHeader {
+  width: 100%;
+  height: 3vh;
+ }
+
+ .section3 .ndHeader .details {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+ }
+
+ .section3 .ndHeader .details .mountHead {
+  height: 100%;
+  width: 14vh;
+ }
+
+ .section3 .ndHeader .details .mountHead h1 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 300;
+ }
+
+
+ .section3 .body {
+  width: 100%;
+  height: 81vh;
+ }
+
+ .section3 .body .details {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+ }
+
+ .section3 .body .details .schedule {
+  width: 200px;
+  height: 180px;
+ }
+
+ .section3 .body .details .schedule h1 {
+  width: 180px;
+  height: 20px;
+  color: #404E6C;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  align-items: center;
+ }
+
+ .section3 .body .details .schedule span {
+  width: 180px;
+  margin-bottom: 8px;
+  height: 20px;
+ }
+
+ .section3 .body .details .schedule span h2 {
+  color: #000000;
+  font-size: 7px;
+  font-weight: 200;
+ }
+
+ .section3 footer {
+  width: 100%;
+  height: 6vh;
+ }
+
+ .section3 footer .details {
+  height: 100%;
+  width: 100%;
+ }
+
+ .section3 footer .details h1 {
+  font-size: 10px;
+  margin: 0;
+  letter-spacing: 1.5px;
+  color: #55688D;
+ }
+
+ .section3 footer .details .logoCon {
+  height: 100%;
+  width: 20vh;
+ }
+
+ .section3 footer .details .logoCon span {
+  height: 4vh;
+  width: 15vh;
+  padding: 0;
+  font-weight: 100px;
+ }
+
+ .section3 footer .details .logoCon span h1 {
+  font-size: 13px;
+  margin: 0;
+  height: 50%;
+  width: 100%;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  color: #55688D;
+ }
+
+ .section3 footer .details .logoCon span h2 {
+  font-size: 13px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 2px;
+  width: 100%;
+ }
+}
+
+@media (min-width:500px) and (max-width:799px) {
+ section nav {
+  width: 100%;
+  height: 8vh;
+ }
+
+ .section1 nav {
+  height: 5vh;
+ }
+
+ .section1 nav .details {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+ }
+
+ .logo {
+  height: 4vh;
+  width: 4vh;
+  border-radius: 50%;
+ }
+
+ .section1 nav .details .links {
+  height: 100%;
+  width: 11vh;
+  padding-right: 3px;
+ }
+
+ .section1 nav .details .links a {
+  font-size: 7px;
+  font-weight: 300;
+ }
+
+
+ .section2 nav {
+  height: 5vh;
+ }
+
+ .section2 nav .details {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+ }
+
+ .section2 nav .details .logoCon {
+  height: 100%;
+  width: 16vh;
+ }
+
+ .section2 nav .details .logoCon span {
+  height: 4vh;
+  width: 11vh;
+  padding: 0;
+ }
+
+ .section2 nav .details .logoCon span h1 {
+  font-size: 10px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  width: 100%;
+ }
+
+ .section2 nav .details .logoCon span h2 {
+  font-size: 10px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 2px;
+  width: 100%;
+ }
+
+ .section2 nav .details .links {
+  height: 100%;
+  width: 11vh;
+  padding-right: 3px;
+ }
+
+ .section2 nav .details .links a {
+  font-size: 7px;
+  font-weight: 300;
+ }
+
+ .section2 .body {
+  width: 100%;
+  height: 84vh;
+ }
+
+ .section2 .body .details {
+  width: 480px;
+  height: 100%;
+ }
+
+ .section2 .body .details span {
+  width: 440px;
+  margin-top: 60px;
+  height: 100px;
+ }
+
+ .section2 .body .details span h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+ }
+
+ .section2 .body .details span h2 {
+  font-size: 17px;
+  margin-left: -15px;
+  margin-top: 20px;
+  font-weight: 200;
+ }
+
+ .section2 .body .details p {
+  width: 350px;
+  font-size: 10px;
+  height: 80px;
+ }
+
+ .section2 footer {
+  width: 100%;
+  height: 11vh;
+ }
+
+ .section2 footer .details {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+ }
+
+ .section2 footer .details .images {
+  margin-top: 1vh;
+  height: 8vh;
+  width: 100%;
+ }
+
+ .section2 footer .details .images img {
+  width: 24%;
+  height: 100%;
+ }
+
+ .section2 footer .details .loader {
+  height: 2vh;
+  width: 6vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+ }
+
+ .section2 footer .details .loader button {
+  height: 2px;
+  width: 2px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+ }
+
+ .section3 header {
+  width: 100%;
+  height: 10vh;
+ }
+
+ .section3 header .details {
+  height: 100%;
+  width: 380px;
+ }
+
+ .section3 header .details span {
+  width: 100px;
+  height: 100%;
+ }
+
+ .section3 header .details span h1 {
+  font-size: 50px;
+  letter-spacing: 4px;
+ }
+
+ .section3 header .details span h2 {
+  font-size: 17px;
+  font-weight: 100;
+  margin-left: -15px;
+  margin-top: 22px;
+ }
+
+ .section3 header .details p {
+  width: 270px;
+  font-size: 10px;
+  font-weight: 100;
+  height: 80px;
+ }
+
+ .section3 .ndHeader {
+  width: 100%;
+  height: 3vh;
+ }
+
+ .section3 .ndHeader .details {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+ }
+
+ .section3 .ndHeader .details .mountHead {
+  height: 100%;
+  width: 10vh;
+ }
+
+ .section3 .ndHeader .details .mountHead h1 {
+  font-size: 7px;
+  letter-spacing: 2px;
+  font-weight: 300;
+ }
+
+
+ .section3 .body {
+  width: 100%;
+  height: 81vh;
+ }
+
+ .section3 .body .details {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+ }
+
+ .section3 .body .details .schedule {
+  width: 200px;
+  height: 180px;
+ }
+
+ .section3 .body .details .schedule h1 {
+  width: 180px;
+  height: 20px;
+  color: #404E6C;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  align-items: center;
+ }
+
+ .section3 .body .details .schedule span {
+  width: 180px;
+  margin-bottom: 8px;
+  height: 20px;
+ }
+
+ .section3 .body .details .schedule span h2 {
+  color: #000000;
+  font-size: 7px;
+  font-weight: 200;
+ }
+
+ .section3 footer {
+  width: 100%;
+  height: 6vh;
+ }
+
+ .section3 footer .details {
+  height: 100%;
+  width: 100%;
+ }
+
+ .section3 footer .details h1 {
+  font-size: 8px;
+  margin: 0;
+  letter-spacing: 1.5px;
+  color: #55688D;
+ }
+
+ .section3 footer .details .logoCon {
+  height: 100%;
+  width: 16vh;
+ }
+
+ .section3 footer .details .logoCon span {
+  height: 5vh;
+  width: 11vh;
+  padding: 0;
+  font-weight: 100px;
+ }
+
+ .section3 footer .details .logoCon span h1 {
+  font-size: 10px;
+  margin: 0;
+  height: 50%;
+  width: 100%;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  color: #55688D;
+ }
+
+ .section3 footer .details .logoCon span h2 {
+  font-size: 10px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 2px;
+  width: 100%;
+ }
+}
+
+@media (min-width:280px) and (max-width:499px) {
+ section nav {
+  width: 100%;
+  height: 8vh;
+ }
+
+ .section1 nav {
+  height: 5vh;
+ }
+
+ .section1 nav .details {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+ }
+
+ .logo {
+  height: 4vh;
+  width: 4vh;
+  border-radius: 50%;
+ }
+
+ .section1 nav .details .links {
+  height: 100%;
+  width: 11vh;
+  padding-right: 3px;
+ }
+
+ .section1 nav .details .links a {
+  font-size: 7px;
+  font-weight: 300;
+ }
+
+
+ .section2 nav {
+  height: 5vh;
+ }
+
+ .section2 nav .details {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+ }
+
+ .section2 nav .details .logoCon {
+  height: 100%;
+  width: 16vh;
+ }
+
+ .section2 nav .details .logoCon span {
+  height: 4vh;
+  width: 11vh;
+  padding: 0;
+ }
+
+ .section2 nav .details .logoCon span h1 {
+  font-size: 10px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  width: 100%;
+ }
+
+ .section2 nav .details .logoCon span h2 {
+  font-size: 10px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 2px;
+  width: 100%;
+ }
+
+ .section2 nav .details .links {
+  height: 100%;
+  width: 11vh;
+  padding-right: 3px;
+ }
+
+ .section2 nav .details .links a {
+  font-size: 7px;
+  font-weight: 300;
+ }
+
+ .section2 .body {
+  width: 100%;
+  height: 84vh;
+ }
+
+ .section2 .body .details {
+  width: 280px;
+  height: 100%;
+ }
+
+ .section2 .body .details span {
+  width: 280px;
+  margin-top: 60px;
+  height: 100px;
+ }
+
+ .section2 .body .details span h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+ }
+
+ .section2 .body .details span h2 {
+  font-size: 17px;
+  margin-left: -15px;
+  margin-top: 20px;
+  font-weight: 200;
+ }
+
+ .section2 .body .details p {
+  width: 250px;
+  font-size: 7px;
+  height: 80px;
+ }
+
+ .section2 footer {
+  width: 100%;
+  height: 11vh;
+ }
+
+ .section2 footer .details {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+ }
+
+ .section2 footer .details .images {
+  margin-top: 1vh;
+  height: 8vh;
+  width: 100%;
+ }
+
+ .section2 footer .details .images img {
+  width: 24%;
+  height: 100%;
+ }
+
+ .section2 footer .details .loader {
+  height: 2vh;
+  width: 6vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+ }
+
+ .section2 footer .details .loader button {
+  height: 2px;
+  width: 2px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+ }
+
+ .section3 header {
+  width: 100%;
+  height: 10vh;
+ }
+
+ .section3 header .details {
+  height: 100%;
+  width: 280px;
+ }
+
+ .section3 header .details span {
+  width: 100px;
+  height: 100%;
+ }
+
+ .section3 header .details span h1 {
+  font-size: 50px;
+  letter-spacing: 4px;
+ }
+
+ .section3 header .details span h2 {
+  font-size: 17px;
+  font-weight: 100;
+  margin-left: -15px;
+  margin-top: 22px;
+ }
+
+ .section3 header .details p {
+  width: 170px;
+  font-size: 6px;
+  font-weight: 100;
+  height: 80px;
+ }
+
+ .section3 .ndHeader {
+  width: 100%;
+  height: 3vh;
+ }
+
+ .section3 .ndHeader .details {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+ }
+
+ .section3 .ndHeader .details .mountHead {
+  height: 100%;
+  width: 10vh;
+ }
+
+ .section3 .ndHeader .details .mountHead h1 {
+  font-size: 7px;
+  letter-spacing: 2px;
+  font-weight: 300;
+ }
+
+
+ .section3 .body {
+  width: 100%;
+  height: 81vh;
+ }
+
+ .section3 .body .details {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+ }
+
+ .section3 .body .details .schedule {
+  width: 200px;
+  height: 180px;
+ }
+
+ .section3 .body .details .schedule h1 {
+  width: 180px;
+  height: 20px;
+  color: #404E6C;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  align-items: center;
+ }
+
+ .section3 .body .details .schedule span {
+  width: 180px;
+  margin-bottom: 8px;
+  height: 20px;
+ }
+
+ .section3 .body .details .schedule span h2 {
+  color: #000000;
+  font-size: 7px;
+  font-weight: 200;
+ }
+
+ .section3 footer {
+  width: 100%;
+  height: 6vh;
+ }
+
+ .section3 footer .details {
+  height: 100%;
+  width: 100%;
+ }
+
+ .section3 footer .details h1 {
+  font-size: 5px;
+  margin: 0;
+  letter-spacing: 1.5px;
+  color: #55688D;
+ }
+
+ .section3 footer .details .logoCon {
+  height: 100%;
+  width: 16vh;
+ }
+
+ .section3 footer .details .logoCon span {
+  height: 5vh;
+  width: 11vh;
+  padding: 0;
+  font-weight: 100px;
+ }
+
+ .section3 footer .details .logoCon span h1 {
+  font-size: 10px;
+  margin: 0;
+  height: 50%;
+  width: 100%;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  color: #55688D;
+ }
+
+ .section3 footer .details .logoCon span h2 {
+  font-size: 10px;
+  margin: 0;
+  height: 50%;
+  font-weight: 200;
+  letter-spacing: 2px;
+  width: 100%;
+ }
+}
